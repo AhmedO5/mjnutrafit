@@ -13,7 +13,7 @@ const dashboardRouter = require("./routes/dashboard.route");
 const app = express();
 
 const corsOptions = {
-  origin: ["http://localhost:8080", "http://localhost:5173", "http://localhost:3000"],
+  origin: ["http://localhost:8080", "http://localhost:5173", "http://localhost:3000", "https://fluffy-nougat-c33060.netlify.app"],
   credentials: true,
 };
 
